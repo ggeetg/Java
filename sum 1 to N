@@ -1,0 +1,10 @@
+public class App {
+    public static void main(String[] args) {
+        var n = 5;        
+        var sum = 1;
+        for(var i=1;i<=n;i++){
+            sum = sum + i;
+        }
+        System.out.print(sum);
+    }
+}
